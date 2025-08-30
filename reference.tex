@@ -1,0 +1,31 @@
+\documentclass[a4paper]{tufte-book}
+\usepackage[fontset=none]{ctex}
+\usepackage{minted}% 语法高亮和代码样式设置方面更加强大和灵活
+\usepackage{listings}% 引入listings包，用于在文档中插入代码，并可自定义代码样式
+\usepackage{xcolor}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{zhlipsum}
+\usepackage{fontspec}
+\hypersetup{hypertex=true,
+colorlinks=true,
+linkcolor=blue,
+anchorcolor=blue,
+citecolor=blue}
+\usepackage{graphicx}
+\setkeys{Gin}{width=0.95\linewidth,totalheight=0.95\textheight,keepaspectratio}
+\graphicspath{{Graphics/}}
+\usepackage{listings}
+\setcitestyle{numbers,square}
+\include{font}
+\def\rmit#1{\textrm{\textit{#1}}}
+\def\key#1{\texttt{\textbf{#1}}}
+
+\begin{document}
+
+\include{L-1/L1}
+
+
+
+
+\end{document}

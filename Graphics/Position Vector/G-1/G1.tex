@@ -1,0 +1,44 @@
+\documentclass[11pt]{standalone}
+\usepackage{tikz} 
+\usetikzlibrary{calc}
+
+\begin{document}
+
+\begin{tikzpicture}[>=latex,line width=0.6pt]
+
+\coordinate (o) at (0,0);
+\coordinate (x) at (220:3);
+\coordinate (y) at (0:6);
+\coordinate (z) at (90:6);
+\coordinate (a) at (70:4);
+\coordinate (b) at (40:7);
+
+\coordinate (c) at (80:2);
+\coordinate (d) at (60:2);
+\coordinate (e) at (20:5);
+
+
+% 绘制 坐标系&向量
+\draw [->] (o) node [below]{$O$} --(x) node [below]{$x$};
+\draw [->] (o)--(y) node [below]{$y$};
+\draw [->] (o)--(z) node [right]{$z$};
+
+\draw [->] (o)--(a) node [left]{$A$};
+\draw [->] (a)--(b) node [right]{$B$};
+\draw [->] (o)--(b) ;
+
+
+\filldraw (a) circle (0.6mm)
+(b) circle (0.6mm);
+
+% 标柱
+\node at (70:3) [left] {$r(t)$};
+\node at ($(a)!0.5!(b)$) [above] {$\Delta r$};
+\node at ($(o)!0.5!(b)$) [right] {$r(t+\Delta t)$};
+
+\draw[cyan, line width=1pt] (a) .. controls (c) and (d) .. (b) ;
+\node at ($(c)!0.5!(d)$) [above right] {$\Delta s$};
+
+\end{tikzpicture}	
+
+\end{document}

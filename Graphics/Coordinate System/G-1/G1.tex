@@ -1,0 +1,46 @@
+\documentclass[11pt]{standalone}
+\usepackage{tikz} 
+\usetikzlibrary{calc}
+
+\begin{document}
+
+\begin{tikzpicture}[>=latex,line width=0.6pt]
+
+\coordinate (o) at (0,0);
+\coordinate (x) at (220:3);
+\coordinate (y) at (0:6);
+\coordinate (z) at (90:6);
+\coordinate (a) at (50:5);
+
+% 绘制 坐标系&基向量&向量A
+\draw [->] (o) node [below]{$O$} --(x) node [below]{$x$};
+\draw [->] (o)--(y) node [below]{$y$};
+\draw [->] (o)--(z) node [right]{$z$};
+\draw [->] (o)--(220:0.7) node [above left]{${e}_x$};
+\draw [->] (o)--(0:0.7) node [above]{${e}_y$};
+\draw [->] (o)--(90:0.7) node [left]{${e}_z$};
+\draw [->,blue] (o)--(a) node [right]{$\vec{A}$};
+
+% 绘制 向量A的方向角
+% 注：方向角，即向量（或有向直线）与坐标轴正向或基向量的夹角
+%\draw [->,blue] ($(o)!0.25!(a)$) to [bend right] node[above left]{$\alpha$}($(o)!.3!(x)$);
+%\draw [->,blue] ($(o)!0.25!(a)$) to [bend left] node[right]{$\beta$}($(o)!.2!(y)$);
+%\draw [->,blue] ($(o)!0.25!(a)$) to [bend right] node[above]{$\gamma$}($(o)!.2!(z)$);
+
+% 绘制 向量A分向量的模长
+% 点A的射影，(340:3.4)
+%\draw[densely dotted] (a)--(0:3.2);
+\draw[densely dotted] (a)--(90:5) coordinate (az);
+\draw[densely dotted] (a)--(340:3.4);
+\draw[densely dotted] (o)--(340:3.4);
+\draw[densely dotted] (0:4.4) coordinate (ay) --(340:3.4);
+\draw[densely dotted] (220:1.8) coordinate (ax)--(340:3.4);
+
+% 分向量
+\draw [->,red] (o)--(ax) node [above left]{$\vec{A}_x$};
+\draw [->,red] (o)--(ay) node [above]{$\vec{A}_y$};
+\draw [->,red] (o)--(az) node [left]{$\vec{A}_z$};
+
+\end{tikzpicture}	
+
+\end{document}

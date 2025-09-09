@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.7.29)  30 AUG 2025 21:37
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.7.29)  9 SEP 2025 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**reference
-(./reference.tex
+**Physics
+(./Physics.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
 (d:/texlive/2025/texmf-dist/tex/latex/tufte-latex/tufte-book.cls
@@ -369,7 +369,7 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (d:/texlive/2025/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-No file reference.bbl.
+No file Physics.bbl.
 \c@@tufte@num@bibkeys=\count324
 (d:/texlive/2025/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
@@ -860,11 +860,11 @@ Package zhlipsum Info: Chinese dummy text "aspirin" is created. It has 66
 ))
 
 Package hyperref Warning: Option `hypertex' has already been used,
-(hyperref)                setting the option has no effect on input line 14.
+(hyperref)                setting the option has no effect on input line 15.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 14.
+Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 
-LaTeX Warning: \include should only be used after \begin{document} on input line 20.
+LaTeX Warning: \include should only be used after \begin{document} on input line 21.
 
 (./font.tex
 
@@ -911,29 +911,29 @@ Package fontspec Info:
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"LXGW WenKai
 (fontspec)             Light/B/OT:script=hani;language=dflt;"
 
-) (./reference.aux (./L-1/L1.aux))
-\openout1 = `reference.aux'.
+) (./Physics.aux (./L-1/L1.aux))
+\openout1 = `Physics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -941,61 +941,61 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 24.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 24.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 24.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 24.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 24.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 24.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 24.
-LaTeX Font Info:    Redeclaring math accent \check on input line 24.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 24.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 24.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 24.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 24.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 24.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 25.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 25.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 25.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 25.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 25.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 25.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 25.
+LaTeX Font Info:    Redeclaring math accent \check on input line 25.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 25.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 25.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 25.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 25.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 24.
+(Font)              `operators' in the math version `normal' on input line 25.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 24.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 25.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 24.
+(Font)              `operators' in the math version `bold' on input line 25.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 24.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 25.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 24.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 24.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 24.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 24.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 24.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 25.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 24.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 24.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 24.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 24.
-Package hyperref Info: Link coloring ON on input line 24.
- (./reference.out) (./reference.out)
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 25.
+Package hyperref Info: Link coloring ON on input line 25.
+ (./Physics.out) (./Physics.out)
 \@outlinefile=\write4
-\openout4 = `reference.out'.
+\openout4 = `Physics.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1057,90 +1057,28 @@ Package fontspec Info:
 (fontspec)             Mono Light/B/OT:script=hani;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7.52812> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 3.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 15.
+File: Graphics//Position Vector/G-1/G1.pdf Graphic file (type pdf)
+<use Graphics//Position Vector/G-1/G1.pdf>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.53937> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 26.
 
 
 LaTeX Warning: Marginpar on page 1 moved.
 
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "FZKai-Z03/BI" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "FZKai-Z03/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "FZKai-Z03/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'FZKai-Z03(1)' created for font 'FZKai-Z03'
-(fontspec)             with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FZKai-Z03/OT:script=hani;language=dflt;"
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "LXGW WenKai Medium/BI" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "LXGW WenKai Medium/B" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "LXGW WenKai Medium/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'LXGWWenKaiMedium(0)' created for font
-(fontspec)             'LXGW WenKai Medium' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"LXGW WenKai
-(fontspec)             Medium/OT:script=hani;language=dflt;"
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "LXGW WenKai Light/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'LXGWWenKaiLight(0)' created for font 'LXGW
-(fontspec)             WenKai Light' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"LXGW WenKai
-(fontspec)             Light/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"LXGW WenKai
-(fontspec)             Light/B/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"LXGW WenKai
-(fontspec)             Light/BI/OT:script=hani;language=dflt;"
-
-
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.53937> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.03374> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 41.
+File: Graphics//Coordinate System/G-1/G1.pdf Graphic file (type pdf)
+<use Graphics//Coordinate System/G-1/G1.pdf>
+)
 
 [1
 
@@ -1148,168 +1086,29 @@ Package fontspec Info:
 
 ]
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Source Han Sans SC/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'SourceHanSansSC(0)' created for font
-(fontspec)             'Source Han Sans SC' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Source Han Sans
-(fontspec)             SC/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Source Han Sans
-(fontspec)             SC/B/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Source Han
-(fontspec)             Sans SC/BI/OT:script=hani;language=dflt;"
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Source Han Sans SC Medium/I"
-(fontspec)             (it probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'SourceHanSansSCMedium(0)' created for font
-(fontspec)             'Source Han Sans SC Medium' with options
-(fontspec)             [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Source Han Sans
-(fontspec)             SC Medium/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Source Han Sans SC
-(fontspec)             Medium/B/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Source Han
-(fontspec)             Sans SC Medium/BI/OT:script=hani;language=dflt;"
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Source Han Sans SC Light/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'SourceHanSansSCLight(0)' created for font
-(fontspec)             'Source Han Sans SC Light' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Source Han Sans
-(fontspec)             SC Light/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Source Han Sans SC
-(fontspec)             Light/B/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Source Han
-(fontspec)             Sans SC Light/BI/OT:script=hani;language=dflt;"
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 [2]
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "LXGW WenKai Mono/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'LXGWWenKaiMono(1)' created for font 'LXGW
-(fontspec)             WenKai Mono' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"LXGW WenKai
-(fontspec)             Mono/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"LXGW WenKai
-(fontspec)             Mono/B/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"LXGW WenKai
-(fontspec)             Mono/BI/OT:script=hani;language=dflt;"
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "LXGW WenKai Mono Medium/BI" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "LXGW WenKai Mono Medium/B" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "LXGW WenKai Mono Medium/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'LXGWWenKaiMonoMedium(0)' created for font
-(fontspec)             'LXGW WenKai Mono Medium' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"LXGW WenKai Mono
-(fontspec)             Medium/OT:script=hani;language=dflt;"
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "LXGW WenKai Mono Light/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'LXGWWenKaiMonoLight(0)' created for font
-(fontspec)             'LXGW WenKai Mono Light' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"LXGW WenKai Mono
-(fontspec)             Light/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"LXGW WenKai Mono
-(fontspec)             Light/B/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"LXGW WenKai
-(fontspec)             Mono Light/BI/OT:script=hani;language=dflt;"
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[3])
-
-[4]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-runsystem(latexminted cleantemp  --timestamp 20250830213741 B8AF13EA9C8FE890C9979A1FA8DBDE22)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20250909143153 50AE99E9C35446C2580E4B540B0FD104)...executed safely (allowed).
 
-(./reference.aux (./L-1/L1.aux))
+(./Physics.aux (./L-1/L1.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/04/10>
  ***********
-Package rerunfilecheck Info: File `reference.out' has not changed.
-(rerunfilecheck)             Checksum: 24546F7FD3D8A0B27D02352350CFE715;84.
+Package rerunfilecheck Info: File `Physics.out' has not changed.
+(rerunfilecheck)             Checksum: DA8603361741C88E74B7D4F889BA343D;328.
  ) 
 Here is how much of TeX's memory you used:
- 24129 strings out of 468456
- 546339 string characters out of 5449569
- 1235733 words of memory out of 5000000
- 52100 multiletter control sequences out of 15000+600000
- 629772 words of font info for 123 fonts, out of 8000000 for 9000
+ 23902 strings out of 468456
+ 533456 string characters out of 5449569
+ 1216727 words of memory out of 5000000
+ 51921 multiletter control sequences out of 15000+600000
+ 632255 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 108i,13n,110p,836b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,13n,110p,834b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on reference.pdf (4 pages).
+Output written on Physics.pdf (2 pages).

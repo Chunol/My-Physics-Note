@@ -1,32 +1,60 @@
 \documentclass[a4paper]{tufte-book}
-\usepackage[fontset=none]{ctex}
-\usepackage{minted}% 语法高亮和代码样式设置方面更加强大和灵活
-\usepackage{listings}% 引入listings包，用于在文档中插入代码，并可自定义代码样式
-\usepackage{xcolor}
-\usepackage{natbib}
-\usepackage{hyperref}
-\usepackage{zhlipsum}
-\usepackage{fontspec}
-\usepackage{graphicx}
-\hypersetup{hypertex=true,
-colorlinks=true,
-linkcolor=blue,
-anchorcolor=blue,
-citecolor=blue}
-\usepackage{graphicx}
-\setkeys{Gin}{width=0.95\linewidth,totalheight=0.95\textheight,keepaspectratio}
-\graphicspath{{Graphics/}}
-\usepackage{listings}
-\setcitestyle{numbers,square}
+
+\include{preamble}
 \include{font}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 自定义
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\rmit#1{\textrm{\textit{#1}}}
 \def\key#1{\texttt{\textbf{#1}}}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% example + question + exercise environment
+\newcounter{example}[section]
+\newcounter{exercise}[section]
+\newcounter{question}[section]
+\renewcommand{\theexample}{\arabic{section}.\arabic{example}}
+\renewcommand{\theexercise}{\arabic{section}.\arabic{exercise}}
+\renewcommand{\thequestion}{\arabic{section}.\arabic{question}}
+
+\newcommand{\example}[1]{%
+	\refstepcounter{example}
+	\noindent {\textcolor{cyan}{\textsf{\textbf{Example \theexample }}} \hspace*{1pt} #1 %
+}}
+\newcommand{\question}[1]{%
+	\refstepcounter{question}
+	\noindent{\textcolor{magenta}{\textsf{\textbf{Question \thequestion }}} \hspace*{1pt} #1 %
+}}
+\newcommand{\exercise}[1]{%
+	\refstepcounter{exercise}
+	\noindent{\textsf{\textbf{Exercise \theexercise }} \hspace*{1pt} #1 %
+}}
+
+\newcommand{\cmt}{\noindent\hspace{-0.25em}\textcolor{Green}{\ding{226}} \hspace{0.2em}}
+\newcommand{\sol}{\noindent\hspace{-0.12em}\textcolor{cyan}{\ding{45}} \hspace{0.2em}}
+\newcommand{\solc}{\noindent\hspace{-0.12em}\textcolor{cyan}{\ding{45}} \hspace{0.2em} \vspace*{-\baselineskip}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% highlight environment
+\newenvironment{ilight}
+{\centering
+	\vspace*{6pt}
+	\begin{tcolorbox}[colframe=Gray,colback=LightGrey!15]
+		\setlength{\baselineskip}{\baselineskip}%
+	}
+	{\end{tcolorbox}\vspace*{-4pt}}
+
+
+\newcommand{\keypoint}[1]{\textbf{\textcolor{red}{#1}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 \begin{document}
 
+\include{Preface}
 \include{L-1/L1}
-
-
-
+\include{L-2/L2}
 
 \end{document}

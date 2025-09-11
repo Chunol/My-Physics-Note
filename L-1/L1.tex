@@ -1,75 +1,97 @@
-\chapter{质点运动学}
-质点运动学是研究质点运动规律的物理学分支，涉及质点的位移、速度、加速度等基本概念及其运动方程。
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\marginnote[-17em]{
-\indent
-\key{质点：}忽略物体的形状和大小，只考虑物体的质量和位置的理想化物理模型。
+\chapter{测量单位与记数法}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\key{参考系：}观测者参考系或观察和描述物体运动的坐标系。
+\section{国际单位制 (SI)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nameref{tab:SI} 包括7个基本单位。
 
-{\scriptsize \rmit{\quad 高中物理所谓参考系，通常是指观测者参考系中的惯性参考系。}}
+电气电子科学的基本单位是安培，它是电流的单位。用字母 \emph{I} 表示电流（强度），用
+符号 \emph{A} 表示安培。安培在其定义中使用了时间的基本单位（秒），像这样使用基
+本单位组合而成的单位，称为\textbf{导出单位}\sidenote{除了两个辅助单位, 球面度 (sr)、弧度 (rad)，
+现已并入导出单位。}。反之，则为\textbf{基本单位}。
 
-\key{矢量：}既有大小又有方向的物理量
+一般来说，斜体字母代表物理量，非斜体（罗马）字母代表物理量的单位。
 
-\key{标量：}只有大小没有方向的物理量。
-}
+\begin{margintable}[2cm]
+\begin{tabular}{lc}
+\toprule
+\multicolumn{2}{c}{\normalsize 基本物理量}      \\
+\midrule
+名称    & 符号 \\
+时间    & $t$   \\                
+长度    & $l$, $x$, $r$, etc. \\
+质量    & $m$          \\
+电流    & $I$, $i$       \\       
+热力学温度 & $T$           \\        
+物质的量  & $n$         \\
+发光强度  & $I_v$   \\       
+\bottomrule
+\\
+\\
+\\
+\\
+\toprule
+\multicolumn{2}{c}{\normalsize 基本单位} \\
+\midrule
+名称         & 符号         \\
+秒           & s          \\
+米           & m          \\
+千克          & kg         \\
+安培          & A          \\
+开尔文         & K          \\
+摩尔          & mol        \\
+坎德拉         & cd        \\
+\bottomrule
+\end{tabular}
+\caption[SI]{\tiny 国际单位制 (SI) 的基本物理量和基本单位}
+\label{tab:SI}
+\end{margintable}
 
+\subsection{常用导出单位}
+123
 
-\section{位矢，位移，速度，加速度}
+456
 
-\begin{marginfigure}[4.5cm]
-    \includegraphics{/Position Vector/G-1/G1.pdf}
-    \caption[Position vector]{
-        位矢，位移，速度，加速度\\
-        }
-    \label{fig:Position Vector_G1}
-\end{marginfigure}
+789
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\key{位矢：}位置矢量的简称，指从参考系原点指向质点位置的矢量。
-记作$r$，质点的运动就用位矢随时间的变化来描述，即
-$$
-r = r(t)
-$$
+\section{工程记数法和公制词头}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+工程记数法是科学记数法的一种特殊形式，在技术领域中广泛应用于表示较大和较小
+的量值。工程记数法要求指数必须是3的整数倍，这样就可以方便地与公制词头相结合。
+公制词头是国际单位制中用于表示数量级的前缀，它们表示10的整数次幂,如千 (10$^3$) 、兆 (10$^6$) 等。
+%% 
+\subsection{工程记数法}
+在工程记数法中，一个数的小数点左边可以有1 $\sim$ 3位数字，指数部分须是3的倍数。
 
-\key{位移：}指物体在参考系中从初位置到末位置的有向线段。
-记作$\Delta r$，显然有
-$$
-\Delta r = r(t+\Delta t) - r(t)
-$$
+例如，在工程记数法中，$33\;000$表示为$33\times 10^3$,而在科学记数法中，它表示为$3.3\times 10^4$。
+另一个例子是，在工程记数法中，$0.0\;45$表示为$45\times 10^-3$, 而在科学记数法中，它表示为
+ $4.5\times 10^-2$。
+ 
+%% 
+\subsection{公制词头}
 
-{\small
-高中人教版物理，位移常表示为$\Delta x$。
-}
-\vspace{1em}
+\begin{table*}
+\begin{tabular}{cccccc}
+\toprule
+{\normalsize 公制词头名称}&{\normalsize 符号}&{\normalsize 指数幂}&{\normalsize 公制词头名
+称}&{\normalsize 符号}&{\normalsize 指数幂}\\
+\midrule
+皮[可]  & p             & $10^-12$  &千     &k  &$10^3$\\
+纳[诺]  & n             &$10^-9$    &兆     &M  &$10^6$\\     
+微     &\textup{$\mu$}  &$10^-6$    &吉[咖] &G  &$10^9$\\
+质量    & m             &$10^-3$    &太[拉] &T  &$10^(12)$\\    
+\bottomrule
+\end{tabular}
+\caption[公制词头]{常用公制词头}
+\label{tab:prefixes}
+\end{table*}
 
-\key{速度：}指物体在单位时间内的位移量,即位矢的时间变化率。
-记作$v$，显然有
-$$
-v = \lim_{\Delta t \to 0} \frac{r(t+\Delta t) - r(t)}{\Delta t}
-= \lim_{\Delta t \to 0} \frac{\Delta r}{\Delta t}
-= \frac{\textup{d} r}{\textup{d}t}
-$$
+公制词头即度量单位的前缀,用于表示数量级，便于读写和理解。在工程记数法
+中，电子和电气工程中使用10种公制词头。表\nameref{tab:prefixes}
+列出了最常用的公制词头、符号和相应的10的指数幂。
 
-\key{加速度：}指物体在单位时间内的速度变化量，即速度的时间变化率,显然有
-$$
-a = \lim_{\Delta t \to 0} \frac{v(t+\Delta t) - v(t)}{\Delta t}
-= \lim_{\Delta t \to 0} \frac{\Delta v}{\Delta t}
-= \frac{\textup{d} v}{\textup{d}t}
-$$
-
-
-
-\section{直角坐标系}
-这里仅介绍直角坐标系及其变换，其他坐标系（如极坐标系、柱坐标系、球坐标系等）将在后续章节中介绍。
-\begin{figure}
-    \includegraphics[width=0.8\textwidth, keepaspectratio]{/Coordinate System/G-1/G1.pdf}
-    \caption[Cartesian coordinate system]{
-        直角坐标系\\
-        \vspace{2cm}
-        \normalsize
-        基本矢量：${e}_x$，${e}_y$，${e}_z$
-        }
-    \label{fig:Coordinate System_G1}
-\end{figure}
-
-
+公制词头仅添加于计量单位符号之前，如伏[特]、安[培]和欧[姆]。例如，$0.025$A 可以用工程记数法表示为
+$25\times 10^-3$A，也可以表示为$25$mA ，读作25毫安培。
